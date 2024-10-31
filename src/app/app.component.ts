@@ -3,6 +3,8 @@ import { RouterOutlet } from '@angular/router';
 import { CommonModule, DatePipe } from '@angular/common';
 import { interval } from 'rxjs';
 import { startWith } from 'rxjs/operators';
+import { BrowserModule } from '@angular/platform-browser';
+import { FormsModule } from '@angular/forms';
 
 @Component({
   selector: 'app-root',
